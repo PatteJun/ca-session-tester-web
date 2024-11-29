@@ -1,0 +1,98 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #213547;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+.status {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+.status.error {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.status.success {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.log-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.logs {
+  font-family: monospace;
+  white-space: pre-wrap;
+  padding: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.log-entry {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.log-entry:last-child {
+  border-bottom: none;
+}
+
+.timestamp {
+  color: #64748b;
+  font-size: 0.875em;
+}
+
+.request-info {
+  color: #0f172a;
+  margin: 0.5rem 0;
+}
+
+.response-info {
+  color: #334155;
+}
+
+.success {
+  color: #16a34a;
+}
+
+.error {
+  color: #dc2626;
+}
