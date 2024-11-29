@@ -1,6 +1,6 @@
 // Constants
 const REFRESH_INTERVAL = 5 * 60 * 1000; // 5 minutes
-const ENDPOINT = 'https://ca-stage-lake.carit.ch/services/token/refresh';
+const ENDPOINT = 'https://ca-stage-lake.carit.ch/services/cad/token/refresh';
 
 // State
 let jwt = getCookie('jwt') || 'dummy-jwt-token';
